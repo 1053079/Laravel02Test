@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,5 +18,32 @@ Route::get('/', function () {
 });
 
 Route::get('/hello', function () {
-    return 'Hello World';
+    return view('hello');
+});
+
+Route::get('/posts/{id}', function ($id) {
+    // ddd($id);
+    return response('Post ' . $id);
+});
+
+Route::get('/search', function(Request $request) {
+    return $request->name . ' ' . $request->city;
+});
+
+Route::get('/listings', function() {
+    return view('listings', [
+        'heading' => 'Latest Listings',
+        'listings' => [
+            [
+                'id' => 1,
+                'title' => 'Listing One',
+                'description' => 'Direct Shot'
+            ],
+            [
+                'id' => 2,
+                'title' => 'Listing Two',
+                'description' => 'Five Stage Revolver Fake Volley'
+            ]
+        ]
+    ]);
 });
