@@ -1,0 +1,17 @@
+.image {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.listingname {
+    text-decoration: none;
+}
+
+.description {
+    font-weight: 600;
+}
+
+.test {
+    color:red;
+    background-color: red;
+}
