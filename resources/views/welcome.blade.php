@@ -7,11 +7,10 @@
 @section("content")
 <div class="welcome-container">
     <h1 class="welcomeText"> Welcome to Blue Lock</h1>
-    <p class="welcomeIntro">Ensure that you're not extending another layout within the content section.
-
-      CSS File Inclusion:
-      Check for duplicate CSS file inclusions. Ensure that your CSS file is included only once in your layout.
-
-      Example layout (layouts.layout.blade.php):</p>
+    <p class="welcomeIntro">
+        <a href='/listings'>
+        Check out Listings!
+        </a>
+    </p>
   </div>
 @endsection

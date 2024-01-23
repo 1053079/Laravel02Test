@@ -3,15 +3,36 @@
     max-height: 500px;
 }
 
+.listing_header{
+    display: flex;
+    justify-content: center;
+}
+
 .listingname {
     text-decoration: none;
 }
 
-.description {
-    font-weight: 600;
+.listingname_hover:hover {
+    transform:scale(1.10)
 }
 
 .test {
     color:red;
     background-color: red;
+}
+
+.listing_container{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description_text {
+    font-weight: 600;
+    font-size: 24;
+    margin-left: 10px;
 }

@@ -16,6 +16,12 @@ class Listing {
             'title' => 'Two Stage Revolver Fake Volley',
             'image' => 'https://c.tenor.com/pPtKViokf2oAAAAd/tenor.gif',
             'description' => "First performed in the rematch between Isagi's Team White vs. Rin's Team Red, when Nagi was pressured to score and prove his worth on the field in such a high level game. Nagi starts by setting up a high powered shot from an incoming pass but at the last second changes the angle of the shot to send the ball spinning in the air. The speed of the ball's spin makes it float in place, allowing Nagi to follow up with a high powered shot. Rin himself could not predict or counter the move and it was good enough to provoke him into getting serious. When Anri first saw it, she described it as a miracle, but Ego suggested it was a move possible because of Flow State."
+        ],
+        [
+            'id' => 3,
+            'title' => 'Mid Range Power Shot',
+            'image' => 'https://www.icegif.com/wp-content/uploads/2023/02/icegif-1293.gif',
+            'description' => "When in possession of the ball and holding off two defenders, Kunigami is able to push past his defenders while opening up space for himself and shooting a high powered shot with his right foot, almost scoring an effortless shot."
         ]
         ];
     }
