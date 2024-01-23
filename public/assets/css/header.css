@@ -1,0 +1,22 @@
+.header {
+    background-color: #ADD8E6;
+    border-bottom: 1px #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    
+}
+
+.logo:hover {
+    transform:scale(1.1)
+}
+
+/* .test {
+    color: red;
+    background-color: red;
+} */
