@@ -4,12 +4,19 @@
 }
 
 .listing_header{
-    display: flex;
-    justify-content: center;
+    margin-left: 5px;
+    border: 10px solid blue;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .listingname {
     text-decoration: none;
+}
+
+.listingname_hover {
+    display: flex;
+    justify-content: center;
 }
 
 .listingname_hover:hover {
@@ -21,18 +28,67 @@
     background-color: red;
 }
 
-.listing_container{
+.listings_container{
     display: flex;
     justify-content: center;
+    border: 10px solid gray;
+   
 }
 
-.flex-container {
+
+.max-container {
+    border: 20px solid blue;
     display: flex;
-    justify-content: space-around;
+    flex-wrap:wrap-reverse;
+
+   
+
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    border: 10px solid yellow;
+    max-width:70%;
+    order: 1;
 }
 
 .description_text {
     font-weight: 600;
-    font-size: 24;
+    font-size: 24px;
     margin-left: 10px;
+}
+
+.go_back_button_image {
+    margin-left: 20px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.go_back_button_image:hover {
+   transform:scale(1.1)
+}
+
+.sidebar {
+  top: 0;
+  width: 28%;
+  order: 2;
+  display: inline-block;
+}
+
+.heading_image {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.heading_text {
+    background-color:#d3d3d3;
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
+.heading_text:hover{
+    transform:scale(1.10);
+    filter:brightness(90%);
 }

@@ -33,14 +33,14 @@ Route::get('/search', function(Request $request) {
 
 Route::get('/listings', function() {
     return view('listings', [
-        'heading' => 'Latest Listings',
+        'heading' => ['Characters', 'Shoots', 'Abilities' , 'Soundtrack'],
         'listings' => Listing::all()
     ]);
 });
 
 Route::get('/listings/{id}', function($id) {
     return view('listings', [
-        'heading' => 'Latest Listings',
+        'heading' => ['Characters', 'Shoots', 'Abilities' , 'Soundtrack'],
         'listings' => [Listing::find($id)]
     ]);
 });
